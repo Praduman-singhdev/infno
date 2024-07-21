@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes and Pastries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ffcc99;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            text-align: center;
+        }
+        .item {
+            margin: 20px 0;
+        }
+        .item img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Delicious Cakes and Pastries</h1>
+</header>
+
+<nav>
+    <a href="#cakes">Cakes</a>
+    <a href="#pastries">Pastries</a>
+</nav>
+
+<div class="content">
+    <section id="cakes">
+        <h2>Cakes</h2>
+        <div class="item">
+            <h3>Chocolate Cake</h3>
+            <img src="chocolate_cake.jpg" alt="Chocolate Cake">
+            <p>A rich and moist chocolate cake topped with creamy chocolate frosting.</p>
+        </div>
+        <div class="item">
+            <h3>Vanilla Cake</h3>
+            <img src="vanilla_cake.jpg" alt="Vanilla Cake">
+            <p>A light and fluffy vanilla cake with a smooth vanilla buttercream.</p>
+        </div>
+    </section>
+
+    <section id="pastries">
+        <h2>Pastries</h2>
+        <div class="item">
+            <h3>Croissant</h3>
+            <img src="croissant.jpg" alt="Croissant">
+            <p>A buttery, flaky pastry perfect for breakfast or a snack.</p>
+        </div>
+        <div class="item">
+            <h3>Eclair</h3>
+            <img src="eclair.jpg" alt="Eclair">
+            <p>A delicate choux pastry filled with cream and topped with chocolate icing.</p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
